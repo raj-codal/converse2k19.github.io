@@ -8036,7 +8036,7 @@ button.bg-dark:focus
 
 .bg-default
 {
-    background-color: #172b4d !important;
+    background-color: #000000 !important;
 }
 
 a.bg-default:hover,
@@ -8188,7 +8188,7 @@ button.bg-darker:focus
 
 .border-default
 {
-    border-color: #172b4d !important;
+    border-color: #000000 !important;
 }
 
 .border-white
@@ -12406,7 +12406,7 @@ a.text-dark:focus
 
 .text-default
 {
-    color: #172b4d !important;
+    color: #000000 !important;
 }
 
 a.text-default:hover,
@@ -15136,7 +15136,7 @@ a.btn-icon-only
 .dropdown-menu a.media:hover .heading,
 .dropdown-menu a.media:hover p
 {
-    color: #172b4d !important;
+    color: #000000 !important;
 }
 
 .dropdown-menu-sm
@@ -16380,7 +16380,7 @@ textarea[resize='horizontal']
     {
         padding: .625rem 0;
 
-        color: #172b4d !important;
+        color: #000000 !important;
     }
     .navbar-nav .dropdown-menu
     {
@@ -18223,7 +18223,7 @@ article h5 + figure
     padding-top: .5rem;
     padding-bottom: .5rem;
 
-    background-color: #172b4d !important;
+    background-color: #000000 !important;
     box-shadow: 0 1px 10px rgba(130, 130, 134, .1);
 }
 
