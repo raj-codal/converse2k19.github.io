@@ -1,1 +1,22 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 444.0022"><defs><linearGradient id="linear-gradient" x1="99.5" y1="443.5022" x2="99.5" y2="-0.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2b1c46"/><stop offset="1" stop-color="#06182a"/></linearGradient><radialGradient id="radial-gradient" cx="69.75" cy="379.7511" r="67.0793" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ee2732" stop-opacity="0.2"/><stop offset="1" stop-color="#2b1c46" stop-opacity="0"/></radialGradient></defs><title>bg</title><path d="M199.5-.5v422a238.72431,238.72431,0,0,1-64.48,19.32,235.76126,235.76126,0,0,1-34.52,2.68,238.83859,238.83859,0,0,1-101-22V-.5Z" transform="translate(0.5 0.5)" opacity="0.97" fill="url(#linear-gradient)"/><path d="M140,410.5a94.16554,94.16554,0,0,1-4.98,30.32,235.76126,235.76126,0,0,1-34.52,2.68,238.83859,238.83859,0,0,1-101-22V327.94A94.51643,94.51643,0,0,1,140,410.5Z" transform="translate(0.5 0.5)" fill="url(#radial-gradient)"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 444" style="enable-background:new 0 0 200 444;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.97;fill:url(#SVGID_1_);enable-background:new    ;}
+	.st1{fill:url(#SVGID_2_);}
+</style>
+<title>bg</title>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="99.5" y1="1.7744" x2="99.5" y2="445.776" gradientTransform="matrix(1 0 0 -1 0.5 445.776)">
+	<stop  offset="0" style="stop-color:#000000"/>
+	<stop  offset="0.141" style="stop-color:#000102"/>
+	<stop  offset="1" style="stop-color:#06182A"/>
+</linearGradient>
+<path class="st0" d="M200,0v422c-20.5,9.5-42.2,16-64.5,19.3c-11.4,1.7-23,2.6-34.5,2.7c-34.9,0.1-69.3-7.4-101-22V0H200z"/>
+<radialGradient id="SVGID_2_" cx="57.75" cy="53.5338" r="67.0832" gradientTransform="matrix(1 0 0 -1 0.5 445.776)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#940088;stop-opacity:0.2"/>
+	<stop  offset="1" style="stop-color:#2B1C46;stop-opacity:0"/>
+</radialGradient>
+<path class="st1" d="M128.5,423c0,10.3-1.7,20.6-5,30.3c-11.4,1.7-23,2.6-34.5,2.7c-34.9,0.1-69.3-7.4-101-22v-93.6
+	c45.6-25.4,103.2-9,128.6,36.6C124.4,391.1,128.5,406.9,128.5,423z"/>
+</svg>
