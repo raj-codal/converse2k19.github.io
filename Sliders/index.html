@@ -27,8 +27,9 @@
       height: 100%;
     }
     .swiper-slide {
-      height:300px;
-      width: fit-content;
+      /* padding: 10px; */
+      /* height:300px; */
+      height: fit-content;
       text-align: center;
       overflow: hidden;
       font-size: 18px;
@@ -87,7 +88,7 @@
       <!-- <div class="swiper-pagination"></div> -->
       </div>
   </div>
-
+  <button onclick="fun()">ccc</button>
   <!-- Swiper JS -->
   <script src="package/js/swiper.min.js"></script>
 
@@ -127,11 +128,30 @@
       effect: 'coverflow',
       grabCursor: true,
       centeredSlides: true,
-      slidesPerView: 3,
+      // slidesPerView: 3,
       freeModeSticky:true,
-      spaceBetween: 30,
+      // spaceBetween: 30,
+      keyboard:{
+        enabled:true,
+      },
       // virtualTranslate: true,
-      from: 3,
+      breakpoints: {
+        // when window width is >= 320px
+        320: {
+          slidesPerView: 1.5,
+          spaceBetween: 5
+        },
+        // when window width is >= 480px
+        480: {
+          slidesPerView: 2,
+          spaceBetween: 30
+        },
+        // when window width is >= 640px
+        640: {
+          slidesPerView: 3,
+          spaceBetween: 40
+        }
+      },
       coverflowEffect: {
         rotate: 0,
         stretch: 0,
@@ -140,8 +160,14 @@
         slideShadows : true,
       }
     });
-
-
+      swiper.activeIndex = 4
+        function fun(){
+          console.log(swiper.activeIndex);
+        }
+    
+        swiper.on("touchStart",function(){
+          console.log(swiper.params)
+        });
     // var swiper = new Swiper('.swiper-container', {
     //   slidesPerView: 3,
     //   spaceBetween: 0,
