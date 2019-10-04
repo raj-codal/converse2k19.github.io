@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="package/css/swiper.min.css">
+
+  <!-- Demo styles -->
+  <style>
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      height:300px;
+      width: fit-content;
+      text-align: center;
+      overflow: hidden;
+      font-size: 18px;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    img {
+    max-width: 100%;
+    max-height: 100%;
+    }
+    /* .swiper-slide-duplicate-active{
+      top:50px;
+    }
+
+    .swiper-slide-next{
+      top:50px;
+    } */
+  </style>
+</head>
+<body>
+  <!-- Swiper -->
+  <div style="height: 80vh; margin-top: 100px">
+      <div class="swiper-container">
+        <div class="swiper-wrapper" id="wrap">
+          <div class="swiper-slide"><div class="p100"><img src="images/1.png"></div></div>
+          <div class="swiper-slide"><div class="p100"><img src="images/2.png"></div></div>
+          <div class="swiper-slide"><div class="p100"><img src="images/3.png"></div></div>
+          <div class="swiper-slide"><div class="p100"><img src="images/4.png"></div></div>
+          <div class="swiper-slide"><div class="p100"><img src="images/5.png"></div></div>
+          <div class="swiper-slide"><div class="p100"><img src="images/6.png"></div></div>
+          <div class="swiper-slide"><div class="p100"><img src="images/7.png"></div></div>
+          <div class="swiper-slide"><div class="p100"><img src="images/8.png"></div></div>
+          <div class="swiper-slide"><div class="p100"><img src="images/9.png"></div></div>
+          <div class="swiper-slide"><div class="p100"><img src="images/10.png"></div></div>
+          <div class="swiper-slide"><div class="p100"><img src="images/11.png"></div></div>
+          <div class="swiper-slide"><div class="p100"><img src="images/12.png"></div></div>
+          <div class="swiper-slide"><div class="p100"><img src="images/13.png"></div></div>
+          <div class="swiper-slide"><div class="p100"><img src="images/14.png"></div></div>
+          <div class="swiper-slide"><div class="p100"><img src="images/15.png"></div></div>
+          <div class="swiper-slide"><div class="p100"><img src="images/16.png"></div></div>
+        </div>
+      <!-- Add Pagination -->
+      <!-- <div class="swiper-pagination"></div> -->
+      </div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="package/js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    // document.getElementById("wrap").addEventListener('mousedown', function(event) { 
+      
+    //   setTimeout(function() {
+    //     var swiper = new Swiper('.swiper-container', {
+    //       slidesPerView: 3,
+    //       spaceBetween: 10, 
+    //     });
+
+    //     a = document.getElementsByClassName("swiper-slide-next");
+    //     for(x in a){
+    //       console.log(x);
+    //     }
+    //   }, 500);
+    // });
+    // document.getElementById("wrap").addEventListener('mouseup', function(event) { 
+      
+    //   setTimeout(function() {
+    //     var swiper = new Swiper('.swiper-container', {
+    //       slidesPerView: 3,
+    //       spaceBetween: 0, 
+    //     });
+
+    //     a = document.getElementsByClassName("swiper-slide-next");
+    //     for(x in a){
+    //       console.log(x);
+    //     }
+    //   }, 500);
+    // });
+
+
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 3,
+      freeModeSticky:true,
+      spaceBetween: 30,
+      // virtualTranslate: true,
+      from: 3,
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      }
+    });
+
+
+    // var swiper = new Swiper('.swiper-container', {
+    //   slidesPerView: 3,
+    //   spaceBetween: 0,
+      
+    // });
+  </script>
+</body>
+</html>
